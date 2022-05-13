@@ -2,13 +2,9 @@
   "name": "Account PWA",
   "short_name": "ACCPPWA",
   "description": "Notes for all acounts with credentials",
-
-  "scope": "/ParraPerezSamuel",
   "start_url": ".",
-
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-
   "display": "fullscreen", 
 
   "icons": [
