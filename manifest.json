@@ -4,7 +4,7 @@
   "description": "Notes for all acounts with credentials",
 
   "scope": "/ParraPerezSamuel",
-  "start_url": "/ParraPerezSamuel",
+  "start_url": "https://parraperezsamuel.github.io/ParraPerezSamuel",
 
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
