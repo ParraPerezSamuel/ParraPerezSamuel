@@ -6,8 +6,8 @@
   "description": "Notes for all acounts with credentials",
  
   // Scope and start URL - these need to change to yours
-  "scope": "/ParraPerezSamuel/",
-  "start_url": "/ParraPerezSamuel/",
+  "scope": "/ParraPerezSamuel/ParraPerezSamuel/",
+  "start_url": "/ParraPerezSamuel/ParraPerezSamuel/",
  
   // colours of the app as displayed in the installer
   "background_color": "#ffffff",
@@ -22,7 +22,7 @@
   // you may not be able to install the app. 
   "icons": [
       {
-        "src": "//ParraPerezSamuel/assets/img/icon.png",
+        "src": "/ParraPerezSamuel/ParraPerezSamuel/assets/img/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
