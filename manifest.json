@@ -1,5 +1,5 @@
 {
-  # Name of the app and short name in case there isn't enough space
+  # Name of the app and short name in case there isnt enough space
   "name": "Account PWA",
   "short_name": "ACCPPWA",
   # Description what your app is
@@ -17,9 +17,9 @@
   #This could be "standalone", "fullscreen", "minimal-ui" or "browser"
   "display": "fullscreen", 
  
-  # The possible icons to display. Make sure to change the src URL,
-  # the type and the size to your needs. If the size isn't correct, 
-  # you may not be able to install the app. 
+  # The possible icons to display. Make sure to change the src URL
+  # the type and the size to your needs. If the size isnt correct,
+  # you may not be able to install the app
   "icons": [
       {
         "src": "/ParraPerezSamuel/ParraPerezSamuel/assets/img/icon.png",
