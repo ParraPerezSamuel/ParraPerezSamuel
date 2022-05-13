@@ -3,7 +3,7 @@
   "short_name": "ACCPPWA",
   "description": "Notes for all acounts with credentials",
 
-  "scope": "ParraPerezSamuel",
+  "scope": "/",
   "start_url": "/",
 
   "background_color": "#ffffff",
