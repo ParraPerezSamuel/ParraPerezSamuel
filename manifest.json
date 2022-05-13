@@ -3,7 +3,7 @@
     "short_name": "Accounts",
     "icons": [
       {
-        "src": "./assets/icon.png",
+        "src": "/assets/icon.png",
         "sizes": "100x100",
         "type": "image/png"
        
@@ -14,4 +14,4 @@
     "start_url": "/ParraPerezSamuel/",
     "display": "standalone",
     "orientation": "portrait"
-  }
+}
