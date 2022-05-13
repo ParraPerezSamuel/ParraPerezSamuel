@@ -1,7 +1,6 @@
 {
   "name": "Account PWA",
   "short_name": "ACCPPWA",
-  "description": "Notes for all acounts with credentials",
   "start_url": ".",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
@@ -11,7 +10,12 @@
       {
         "src": "assets/icon.png",
         "type": "image/png",
-        "sizes": "700x700"
+        "sizes": "1024x1024"
+      },
+      {
+        "src": "assets/icon.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
       }
   ]
 }
