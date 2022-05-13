@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <link rel="stylesheet" href="assets/index.css">
+
+</head>
+<script>
+// Check that service workers are supported
+if ("serviceWorker" in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js");
+  });
+}
+</script>
+<body>
+    <header>
+        <form id="new-task-form">
+            <div class="row">
+                <input class="newAccount" type="submit" id="new-task-submit" value="NEW ACCOUNT">
+            </div>
+        </form>
+        <form id="newAcc" hidden>
+            <div class="form">
+                <div class="title">Add New Account</div>
+                <div class="input-container ic1">
+                    <input id="account" class="newAccount" , type="text" , placeholder="Account Name">
+                </div>
+                <div class="input-container ic2">
+                    <input id="user" class="newAccount" , type="text" , placeholder="Insert User-Name">
+                </div>
+                <div class="input-container ic2">
+                    <input id="pass" class="newAccount" , type="text" , placeholder="Insert User-Password">
+                </div>
+                <button id="btn" type="text" , class="submit">Add Account</button>
+            </div>
+        </form>
+        <form id="editForm" hidden>
+            <div class="form">
+                <div class="title">EDIT</div>
+                <div class="input-container ic1">
+                    <input id="accEdit" class="newAccount" , type="text", disabled>
+                </div>
+                <div class="input-container ic2">
+                    <input id="userEdit" class="newAccount" , type="text">
+                </div>
+                <div class="input-container ic2">
+                    <input id="passEdit" class="newAccount" , type="text">
+                </div>
+                <button id="btnUpdate" type="text" , class="submit">UPDATE</button>
+            </div>            
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>My Accounts</h2>
+            <div id="tasks">
+
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
