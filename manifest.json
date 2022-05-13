@@ -11,7 +11,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/ParraPerezSamuel/",
+    "start_url": "https://parraperezsamuel.github.io/ParraPerezSamuel/",
     "display": "standalone",
     "orientation": "portrait"
 }
