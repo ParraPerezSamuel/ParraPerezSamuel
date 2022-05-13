@@ -1,25 +1,25 @@
 {
-  // Name of the app and short name in case there isn't enough space
+  # Name of the app and short name in case there isn't enough space
   "name": "Account PWA",
   "short_name": "ACCPPWA",
-  // Description what your app is
+  # Description what your app is
   "description": "Notes for all acounts with credentials",
  
-  // Scope and start URL - these need to change to yours
+  # Scope and start URL - these need to change to yours
   "scope": "/ParraPerezSamuel/ParraPerezSamuel/",
   "start_url": "/ParraPerezSamuel/ParraPerezSamuel/",
  
-  // colours of the app as displayed in the installer
+  # colours of the app as displayed in the installer
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
  
-  // Display of the app. 
-  //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
+  # Display of the app. 
+  #This could be "standalone", "fullscreen", "minimal-ui" or "browser"
   "display": "fullscreen", 
  
-  // The possible icons to display. Make sure to change the src URL,
-  // the type and the size to your needs. If the size isn't correct, 
-  // you may not be able to install the app. 
+  # The possible icons to display. Make sure to change the src URL,
+  # the type and the size to your needs. If the size isn't correct, 
+  # you may not be able to install the app. 
   "icons": [
       {
         "src": "/ParraPerezSamuel/ParraPerezSamuel/assets/img/icon.png",
